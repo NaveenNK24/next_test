@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
       }
     </Script>
 
-      <Script id="adroll-pixel" strategy="afterInteractive">
+      {/* <Script id="adroll-pixel" strategy="afterInteractive">
         {
           `
     adroll_adv_id = "VYRS2RCQKJDCJM6PMZS3KB";
@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }) {
 
           `
         }
-      </Script>
+      </Script> */}
 
       <Component {...pageProps} />
     </>
