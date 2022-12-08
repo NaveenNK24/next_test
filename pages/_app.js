@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
 
     <>
-      <Script strategy="afterInteractive">
+      <Script id="adroll" strategy="afterInteractive">
         {
           `
     adroll_adv_id = "VYRS2RCQKJDCJM6PMZS3KB";
