@@ -6,6 +6,18 @@ function MyApp({ Component, pageProps }) {
   return (
 
     <>
+    <Script id="id_without_strategy">
+      {
+        `console.log("id without strategy")`
+      }
+    </Script>
+
+    <Script id="id_with_strategy" strategy="afterInteractive">
+      {
+        `console.log("id with strategy")`
+      }
+    </Script>
+
       <Script strategy="afterInteractive">
         {
           `
