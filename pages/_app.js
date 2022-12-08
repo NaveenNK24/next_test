@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
       }
     </Script>
 
-      <Script id="rolworks" strategy="afterInteractive">
+      <Script id="adroll" strategy="afterInteractive">
         {
           `
     adroll_adv_id = "VYRS2RCQKJDCJM6PMZS3KB";
